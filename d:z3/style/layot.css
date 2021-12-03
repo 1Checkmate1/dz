@@ -1,0 +1,19 @@
+.d-grid{
+    display: grid;
+}
+.task1{
+    grid-template-columns: [start-column] 1fr[logo-block]1fr [end-column];
+}
+.task2{
+    grid-template-columns: [start-column] 1fr[logo-block]1fr [end-column];
+}
+.task2 div:nth-child(1){
+    grid-column:start-column/end-column;
+}
+.task3{
+    grid-template-columns: [start-column] 1fr[logo-block]1fr [end-column];
+}
+.task3 div:nth-child(1){
+    grid-column:1/logo-block ;
+    grid-row:1/span 3;
+}
