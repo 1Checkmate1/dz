@@ -1,0 +1,27 @@
+.d-grid{
+    display: grid;
+}
+.index{
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+}
+.task1{
+    opacity: 50%;
+}
+.task1 div:nth-child(1){
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.task1 div:nth-child(6){
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+.task2{
+    grid-template: repeat(3,200px)/repeat(3,1fr);
+}
+.task2 div:last-child {
+    order: -1;
+}
+
