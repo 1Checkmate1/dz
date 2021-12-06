@@ -1,4 +1,4 @@
-.d-grid-index {
+.index {
     display: grid;
     grid-template-columns: 1fr repeat(5,minmax(auto, 200px)) 1fr;
     grid-template-rows: minmax(70px, auto) 1fr minmax(70px, auto) 100px;
@@ -22,12 +22,12 @@
 .footer {
     grid-column: 1/8;
 }
-.d-grid-second300px {
+.task2-300{
     min-height: 300px;
     display: grid;
     grid-template-rows: minmax(50px, auto) 1fr minmax(50px, auto);
 }
-.d-grid-second50px {
+.task2-50{
     display: grid;
     grid-template-rows: minmax(50px, auto) 1fr minmax(50px, auto);
     margin: 50px;
