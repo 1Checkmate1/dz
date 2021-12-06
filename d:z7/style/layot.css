@@ -1,0 +1,16 @@
+.d-grid {
+    display: grid;
+}
+.d-grid-index {
+    grid-template: 1f,1f/100px 100px;
+}
+
+.task1 {
+    grid-template-columns: repeat(auto-fit, minmax(70px, auto));
+}
+.task2 {
+    grid-template-columns: repeat(auto-fill, minmax(70px, auto));
+}
+.task3 {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    width: 33.3333%;
+}
+.col-first {
+    margin: 15px;
+}
+.d-grid-index {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.d-grid-first {
+    grid-gap: 15px;
+}
+.row-second1 {
+    height: 50px;
+}
+.row-second2 {
+    height: auto;
+}
+.row-second3 {
+    height: 50px;
+}
+.col-third1 {
+    width: 50px;
+}
+.col-third2 {
+    width: 41%;
+}
