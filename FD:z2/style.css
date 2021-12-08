@@ -121,6 +121,7 @@ main{
     height: 400px;
     border: 2px solid #000;
 }
+
 .kyb1
 {
     display: flex;
@@ -134,9 +135,10 @@ main{
 {
     display: flex;
     background: #2e4242;
-    margin: 6em 360px;
     width: 100px;
     height: 100px;
+    margin-left: 300px;
+    margin-top: 150px;
     border: 2px solid #000;
     
 }
@@ -149,4 +151,7 @@ main{
     height: 100px;
     border: 2px solid #000;
 }
+
+
+
 
